@@ -1,0 +1,41 @@
+What is React?
+React is a JavaScript library for building user interfaces through reusable components. Use it for creating interactive web applications that need efficient DOM updates.
+
+What is Babel?
+Babel is a JavaScript compiler that converts modern JavaScript code into backwards compatible versions for broader browser support.
+
+What is JSX?
+JSX is a syntax extension for JavaScript that allows writing HTML-like code within JavaScript, making React component creation more intuitive.
+
+How is a Component created in React?
+A component is created as a function that returns JSX, or as a class that extends React.Component.
+
+Differences between state and props?
+Props are read-only data passed to components from their parents. State is mutable data managed within a component.
+
+What does "downward data flow" refer to?
+Data in React flows in one direction, from parent components down to their children through props.
+
+What is a controlled component?
+A controlled component is a form element whose value is controlled by React state.
+
+What is an uncontrolled component?
+An uncontrolled component is a form element that maintains its own internal state, managed by the DOM.
+
+Purpose of the key prop?
+Keys help React identify which items have changed, been added, or removed in lists of elements.
+
+Why is array index a poor choice for a key?
+Array indices can lead to incorrect component updates if the list order changes or items are inserted/deleted.
+
+What is useEffect?
+useEffect handles side effects in components, such as data fetching, subscriptions, or DOM mutations.
+
+What does useRef do? Does it cause rerenders?
+useRef maintains a mutable value across renders without causing rerenders when changed.
+
+When to use refs?
+Use refs for DOM access, managing focus, or storing mutable values that don't require re-renders. Avoid using refs for values that should trigger UI updates.
+
+What is a custom hook?
+A custom hook is a function that uses React hooks to encapsulate reusable component logic.
